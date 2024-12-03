@@ -1,0 +1,52 @@
+[
+    {
+        "category": "Destination Recommendations",
+        "question": "What are the top places to visit in Bali?",
+        "answer": "Some must-visit places in Bali are Ubud, Kuta Beach, Tanah Lot, and the Uluwatu Temple."
+    },
+    {
+        "category": "Destination Recommendations",
+        "question": "What are the top places to visit in Paris?",
+        "answer": "The Eiffel Tower, Louvre Museum, Notre-Dame Cathedral, and Montmartre are must-visits in Paris."
+    },
+    {
+        "category": "Travel Guidelines",
+        "question": "What documents do I need for international travel?",
+        "answer": "You typically need a passport, visa (if applicable), travel insurance, and flight tickets."
+    },
+    {
+        "category": "Travel Guidelines",
+        "question": "What should I pack for a winter trip to Europe?",
+        "answer": "Warm clothing, thermal wear, gloves, a scarf, a good pair of boots, and travel-sized toiletries."
+    },
+    {
+        "category": "Accommodations",
+        "question": "Can you suggest budget-friendly hotels in New York?",
+        "answer": "Some budget-friendly options include Pod Times Square, CitizenM New York, and HI New York City Hostel."
+    },
+    {
+        "category": "Accommodations",
+        "question": "What are the best luxury hotels in Dubai?",
+        "answer": "The Burj Al Arab, Atlantis The Palm, and Jumeirah Beach Hotel are excellent luxury options."
+    },
+    {
+        "category": "Activities",
+        "question": "What are the top adventure activities in New Zealand?",
+        "answer": "Try bungee jumping in Queenstown, glacier hiking on the Franz Josef Glacier, and white-water rafting in Rotorua."
+    },
+    {
+        "category": "Activities",
+        "question": "What are some must-do activities in Rome?",
+        "answer": "Visit the Colosseum, the Vatican Museums, the Trevi Fountain, and take a food tour to enjoy authentic Italian cuisine."
+    },
+    {
+        "category": "Miscellaneous",
+        "question": "How do I get the best exchange rates for currency?",
+        "answer": "Use a travel card or withdraw cash from ATMs abroad instead of exchanging at airports."
+    },
+    {
+        "category": "Miscellaneous",
+        "question": "Is it safe for solo travelers in Japan?",
+        "answer": "Japan is considered one of the safest countries for solo travelers, with a low crime rate and a highly efficient public transport system."
+    }
+]
