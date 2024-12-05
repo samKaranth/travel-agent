@@ -2,11 +2,10 @@
 ***A conversational AI bot for personalized travel recommendations and tips.***
 
 ## 🚀 About the Project
-The Travel Advisor Chatbot is a smart and friendly virtual assistant designed to provide tailored travel advice. Built using cutting-edge Natural Language Processing (NLP) techniques, this chatbot offers:
+The Travel Advisor Chatbot is a smart and friendly virtual assistant designed to provide tailored travel advice. Built using cutting-edge Large Language Model (LLM), this chatbot offers:
 - Destination Recommendations: Popular places, seasonal suggestions.
 - Travel Guidelines: Packing tips, visa requirements, and more.
 - Activity Ideas: Adventure sports, sightseeing, and relaxation options.
-- Accommodation Tips: Luxury hotels, budget stays, and local experiences.
 With a conversational design, it ensures a seamless and enjoyable user experience.
 
 ## ✨ Features
@@ -28,21 +27,41 @@ With a conversational design, it ensures a seamless and enjoyable user experienc
 2. Install required libraries:
     ``` pip install transformers gradio ```
 ### Steps
-1. Clone this repository:
+#### 1. Clone this repository:
 ```
-git clone https://github.com/your-username/travel-advisor-chatbot.git
+git clone https://github.com/samKaranth/travel-advisor-chatbot.git
 cd travel-advisor-chatbot
  ```
-2. Download and load the Gemma-2-2B-IT model:
-```
-from transformers import AutoTokenizer, AutoModelForCausalLM
-tokenizer = AutoTokenizer.from_pretrained("google/gemma-2-2b-it")
-model = AutoModelForCausalLM.from_pretrained("google/gemma-2-2b-it", device_map="auto")
-```
-3. Launch the chatbot:
+#### 2. Obtain Hugging Face Access Token:
+
+- You need an access token to use Hugging Face's pre-trained models.
+    - Go to Hugging Face and create an account (if you don’t have one already).
+    - After logging in, visit the Access Tokens page.
+    - Click New Token and follow the instructions to generate a token.
+- Copy the token once generated and save it safely as you can't see it again.
+
+#### 3. Set up the Hugging Face Token:
+- Set the token in your environment variables to authenticate API calls:
+    - On Windows:
+      ```
+      set HF_HOME=<your_token_here>
+      ```
+    - On macOS/Linux:
+      ```
+      export HF_HOME=<your_token_here>
+      ```
+- Alternatively, you can authenticate by adding this snippet in your .py file:
+  ```
+    from huggingface_hub import login
+
+    # Replace 'your_access_token' with your Hugging Face token
+    login(token='your_access_token')
+  ```
+#### 4. Launch the chatbot:
 ```
 python travel_buddy.py
 ```
+
 
 ## 💡 Usage
 * Ask travel-related questions like:
