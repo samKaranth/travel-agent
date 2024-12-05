@@ -84,7 +84,7 @@ travel-advisor-chatbot/
 - Special thanks to the open-source community for amazing tools like Gradio and Gemma-2-2B-IT.
 
 ## 🛡️ License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/samKaranth/travel-agent/blob/main/LICENSE) file for details.
 
 
 
