@@ -35,7 +35,7 @@ cd travel-advisor-chatbot
 #### 2. Obtain Hugging Face Access Token:
 
 - You need an access token to use Hugging Face's pre-trained models.
-    - Go to Hugging Face and create an account (if you don’t have one already).
+    - Go to [Hugging Face]https://huggingface.co/meta-llama/Llama-2-7b-chat-hf and create an account (if you don’t have one already).
     - After logging in, visit the Access Tokens page.
     - Click New Token and follow the instructions to generate a token.
 - Copy the token once generated and save it safely as you can't see it again.
