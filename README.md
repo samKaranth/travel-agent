@@ -25,7 +25,7 @@ With a conversational design, it ensures a seamless and enjoyable user experienc
 ### Prerequisites
 1. Python 3.8+ installed.
 2. Install required libraries:
-    ``` pip install transformers gradio ```
+    ``` pip install requirment.txt```
 ### Steps
 #### 1. Clone this repository:
 ```
@@ -38,6 +38,7 @@ cd travel-advisor-chatbot
     - Go to [Hugging Face](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf) and create an account (if you don’t have one already).
     - After logging in, visit the Access Tokens page.
     - Click New Token and follow the instructions to generate a token.
+        - For this project ***Fin-grained*** token is used with ***Repositories***, ***Inference*** and ***Collections*** are enabled.  
 - Copy the token once generated and save it safely as you can't see it again.
 
 #### 3. Set up the Hugging Face Token:
